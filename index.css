@@ -40,7 +40,7 @@ body {
   color: rgb(189, 195, 201);
 }
 
-main {
+.main {
   background-color: ghostwhite;
 }
 
@@ -55,6 +55,7 @@ main {
   margin-left: 23%;
   align-items: center;
   box-sizing: border-box;
+  border-bottom: 1px solid black;
 }
 
 .spotlight_book img {
