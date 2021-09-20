@@ -1,0 +1,107 @@
+body {
+  height: 100vh;
+  margin: 0px;
+}
+
+.screen_top {
+  background-color: chartreuse;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen_top span {
+  margin: 0 20px;
+}
+
+.scree_search {
+  height: 30px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+  position: relative;
+}
+
+.scree_search input {
+  width: 100%;
+  border-radius: 20px;
+  border-color: whitesmoke;
+  border: 0px;
+  box-shadow: 0px -7px rgb(253, 253, 253);
+  height: 40px;
+}
+
+.scree_search span {
+  position: absolute;
+  right: 3%;
+  bottom: 2px;
+  color: rgb(189, 195, 201);
+}
+
+main {
+  background-color: ghostwhite;
+}
+
+.main_title {
+  margin-left: 23%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.spotlight_book {
+  display: flex;
+  margin-left: 23%;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.spotlight_book img {
+  margin-right: 50px;
+  height: 340px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.book_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author :first-child {
+  margin-top: 0%;
+}
+
+.author h2 {
+  margin-bottom: 45px;
+}
+
+.Evaluation {
+  margin-bottom: 35px;
+}
+
+.genre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.genre p {
+  background-color: thistle;
+  padding: 8px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.save {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.save :last-child {
+  font-weight: 600;
+}
