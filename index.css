@@ -41,8 +41,8 @@ body {
 }
 
 .main {
-  background-color: ghostwhite;
-  border-bottom: 1px solid rgb(199, 197, 194);
+  background-color: rgb(209, 209, 209);
+  border-bottom: 1px solid rgb(185, 169, 151);
   padding-bottom: 30px;
 }
 
@@ -109,9 +109,10 @@ body {
 }
 
 .bestseller {
-  margin-top: 50px;
+  padding-top: 50px;
   height: 500px;
   display: flex;
+  background-color: rgb(231, 225, 170);
 }
 
 .bestseller_title {
