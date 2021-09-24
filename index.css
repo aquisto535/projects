@@ -124,8 +124,7 @@ body {
 .bestseller_list {
   margin-top: 30px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  overflow: hidden;
 }
 
 .bestseller_list img {
@@ -138,4 +137,9 @@ body {
 
 .bestseller_list span {
   margin-left: 70px;
+}
+
+.bestseller_things {
+  display: flex;
+  flex-direction: column;
 }
